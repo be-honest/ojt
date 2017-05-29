@@ -1,0 +1,37 @@
+.col-container{
+	display: ta;
+	width: 100%;
+}
+
+.col{
+	display: table-cell;
+	padding: 0 10px;
+}
+
+.col1{
+	display: table-cell;
+	/*margin: 100px;*/
+}
+
+.col .icon:before {
+   display: inline-block;
+	width: 5rem;
+	height: 5rem;
+	line-height: 5rem;
+	border-radius: 5rem;
+	background-color: white;
+	color: #2e2b37;
+	cursor: default;
+	font-size: 2rem;
+	margin-right: 1rem;
+	text-align: center;
+	vertical-align: middle;
+}
+.verticalLine {
+  border-left: thick solid #ff0000;
+}
+
+.col1 p{
+	font-size: 16px;
+
+}
